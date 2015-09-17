@@ -45,5 +45,5 @@ function callback(req, res) {
 }
 
 var server = http.createServer(callback) // create an http server
-server.listen(9115, "127.0.0.1"); // make server listen to port 1337
+server.listen(9115, "127.0.0.1"); // make server listen to port
 console.log('Server running at http://127.0.0.1:9115/');
